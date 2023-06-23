@@ -6,7 +6,9 @@
   h1,
   h2,
   h3,
-  h4 {
+  h4,
+  label,
+  input {
     font-family: Oswald, Proxima Nova, system-ui, sans-serif;
   }
   html {
@@ -34,4 +36,12 @@
 
 section {
   @apply sm:mb-10 mb-5;
+}
+
+.input-form {
+  @apply border border-grey p-2 w-full;
+}
+
+.label-form {
+  @apply font-semibold mb-2 text-black text-xl;
 }

@@ -23,7 +23,7 @@ export default function RootLayout({
           <div>
             <Header data={aboutMeData} pages={pages} />
           </div>
-          <div className="flex-auto">{children}</div>
+          <main className="flex-auto sm:mb-32 mb-16">{children}</main>
           <div className="flex-initial">
             <Footer />
           </div>
