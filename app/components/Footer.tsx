@@ -9,7 +9,7 @@ import { MdEmail } from "react-icons/md";
 const Footer: React.FC = () => {
   return (
     <footer className="h-[50px] w-full bg-white shadow-footer">
-      <div className="flex flex-row gap-4 justify-center items-center h-full text-blue">
+      <div className="flex flex-row gap-4 justify-center items-center h-full text-green">
         <a href="">
           <AiFillLinkedin size={30} />
         </a>
