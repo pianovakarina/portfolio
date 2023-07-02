@@ -3,10 +3,7 @@ import { projects } from "../data/data";
 import ProjectCard from "./components/projectCard";
 import { Project } from "../data/types";
 
-interface IMyProjectsProps {
-  data: Project[];
-}
-const MyProjects: React.FC<IMyProjectsProps> = ({ data }) => {
+const MyProjects: React.FC = () => {
   return (
     <div className="flex flex-col m-auto content-center w-11/12 mt-10 ">
       <h2 className="text-2xl mb-4 font-bold">My projects</h2>
